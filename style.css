@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.modal-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 400px;
+    height: 200px;
+
+    background-color: #fff;
+}
+
+.modal-header {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+
+    border-bottom: 1px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-body {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+
+    border-bottom: 1px solid black;
+
+    display: flex;
+    align-items: center;
+}
+
+.modal-footer {
+    padding: 10px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn {
+    display: block;
+
+    width: 100px;
+    height: 30px;
+    margin: 0 0 0 20px;
+
+    font-weight: 900;
+    color: #fff;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-confirm {
+    background-color: rgb(92, 102, 240);
+}
+
+.btn-danger {
+    background-color: rgb(231, 63, 41);
+}
+
+.btn-close {
+    width: 50px;
+    font-size: 25px;
+}
+
+.click-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+    margin: 100px auto;
+
+    font-size: 50px;
+    color: #fff;
+    background-color: rgb(66, 15, 90);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-game {
+    display: block;
+    width: 200px;
+    height: 50px;
+
+    margin: 0 auto;
+
+    background-color: #fff;
+    color: #000;
+    font-size: 25px;
+}
+
+.modal-clicks {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 50px auto;
+
+    display: flex;
+    width: 80%;
+}
+
+.circle-field {
+    width: 600px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-field {
+    width: 300px;
+    height: 600px;
+
+    border: 1px solid black;
+}
+
+.score-field_header {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-field_body {
+    padding: 10px 10px 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.score-field_item {
+    width: 250px;
+    height: 30px;
+    padding: 0 15px;
+    margin-top: 10px;
+
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+.score-field_item:hover {
+    background-color: rgb(157, 136, 167);
+    cursor: pointer;
+}
+
+.score-field_item::marker {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.comment-field {
+    width: 400px;
+}
+
+.comment-field_wrapper {
+    width: 400px;
+    height: 400px;
+
+    padding: 0 15px;
+
+    border: 1px solid black;
+}
+
+.comment-field_header {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-panel_header {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-name {
+    width: 80%;
+    height: 30px;
+
+    padding: 0 10px;
+}
+
+.comment-face {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+}
+
+.comment-text {
+    width: 100%;
+    height: 100px;
+}
+
+.comment-submit {
+    display: block;
+    width: 100%;
+    height: 50px;
+
+    margin: 10px 0;
+
+    background-color: #fff;
+    color: #000;
+    font-size: 25px;
+}
+
+.comment-field_item {
+    width: 350px;
+
+    padding: 10px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 1px solid lightgray
+}
+
+.field_color {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.field_text {
+    width: 100%;
+}
+
+.field-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.field_name {
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 900;
+}
